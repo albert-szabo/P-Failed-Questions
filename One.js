@@ -18,3 +18,6 @@ const one = (prices, discount) => {
 
     return total;
 }
+
+console.log(one(samplePrices, sampleDiscount));
+// Correctly returns 70
