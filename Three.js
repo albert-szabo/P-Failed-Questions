@@ -12,3 +12,6 @@ const three = (start, fromIDs, toIDs) => {
         return three(start, fromIDs, toIDs);
     }
 }
+
+console.log(three(7, sampleFromIDs, sampleToIDs));
+// Correctly returns 5
