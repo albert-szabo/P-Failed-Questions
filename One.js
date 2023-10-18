@@ -1,5 +1,4 @@
 const samplePrices = [10, 20, 80];
-
 const sampleDiscount = 50;
 
 const one = (prices, discount) => {
